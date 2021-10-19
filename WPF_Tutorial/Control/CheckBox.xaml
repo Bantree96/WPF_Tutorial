@@ -1,0 +1,31 @@
+﻿<Window x:Class="WPF_Tutorial.Control.CheckBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Tutorial.Control"
+        mc:Ignorable="d"
+        Title="CheckBox" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <!-- 일반적인 방법 -->
+        <StackPanel Margin="10" Grid.Column="0">
+            <Label FontWeight="Bold">Application Options</Label>
+            <CheckBox>Enable feature AVC</CheckBox>
+            <CheckBox IsChecked="True">Enable feature XYZ</CheckBox>
+            <CheckBox>Enable feature WWW</CheckBox>
+        </StackPanel>
+        
+        <!-- IsThreeState -->
+        <StackPanel Margin="10" Grid.Column="1">
+            <Label FontWeight="Bold">Application Options</Label>
+            <StackPanel Margin="10,5">
+                <CheckBox IsThreeState="True" Name="cbAllFeatures" Checked="cbAllFeatures_CheckedChanged" Unchecked="cbAllFeatures_CheckedChanged">Enable all</CheckBox>
+                
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

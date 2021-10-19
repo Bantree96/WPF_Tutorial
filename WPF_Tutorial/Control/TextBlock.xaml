@@ -1,0 +1,40 @@
+﻿<Window x:Class="WPF_Tutorial.Control.TextBlock"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WPF_Tutorial.Control"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Background="White"
+      Title="TextBlock">
+
+    <StackPanel>
+        <!--
+            Margin : 마진
+            Foreground : 글씨색
+        -->
+        <TextBlock Margin="10" Foreground="Red">
+            This is a TextBlock control<LineBreak/>
+            with multiple lines of text.
+        </TextBlock>
+
+        <TextBlock Margin="10" TextTrimming="CharacterEllipsis" Foreground="Green">
+            This is a TextBlock control with multiple lines of text.
+        </TextBlock>
+
+        <TextBlock Margin="10" TextWrapping="Wrap" Foreground="Blue">
+            This is a TextBlock control<LineBreak/>
+            with multiple lines of text.
+        </TextBlock>
+
+        <TextBlock Margin="10" TextWrapping="Wrap">
+            TextBlock with <Bold>bold</Bold>, <Italic>italic</Italic> and <Underline>underlined</Underline> text.
+        </TextBlock>
+
+        <TextBlock Margin="10" TextWrapping="Wrap">
+            This text has a <Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="https://www.google.com">link</Hyperlink>
+            
+        </TextBlock>
+    </StackPanel>
+</Window>
