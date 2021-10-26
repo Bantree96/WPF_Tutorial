@@ -93,6 +93,12 @@
     <Compile Include="Conversion\Conversion.xaml.cs">
       <DependentUpon>Conversion.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ListViewControl\ListView.xaml.cs">
+      <DependentUpon>ListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ListViewControl\TemplateListView.xaml.cs">
+      <DependentUpon>TemplateListView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="NewWindow\MessageBoxView.xaml.cs">
       <DependentUpon>MessageBoxView.xaml</DependentUpon>
     </Compile>
@@ -158,6 +164,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Conversion\Conversion.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListViewControl\ListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ListViewControl\TemplateListView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
