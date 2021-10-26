@@ -81,11 +81,23 @@
     <Compile Include="Binding\UpdateSourceTrigger.xaml.cs">
       <DependentUpon>UpdateSourceTrigger.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CommonControls\BorderControl.xaml.cs">
+      <DependentUpon>BorderControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControls\CalenderControl.xaml.cs">
+      <DependentUpon>CalenderControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CommonControls\DatePickerControl.xaml.cs">
+      <DependentUpon>DatePickerControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Conversion\Conversion.xaml.cs">
       <DependentUpon>Conversion.xaml</DependentUpon>
     </Compile>
     <Compile Include="NewWindow\MessageBoxView.xaml.cs">
       <DependentUpon>MessageBoxView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Style\Trigger.xaml.cs">
+      <DependentUpon>Trigger.xaml</DependentUpon>
     </Compile>
     <Compile Include="Usercontrol\LimitText.xaml.cs">
       <DependentUpon>LimitText.xaml</DependentUpon>
@@ -98,6 +110,18 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Binding\UpdateSourceTrigger.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CommonControls\BorderControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CommonControls\CalenderControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CommonControls\DatePickerControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -194,6 +218,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Panel\WrapPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Style\Trigger.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
