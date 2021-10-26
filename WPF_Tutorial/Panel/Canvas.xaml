@@ -1,0 +1,15 @@
+﻿<Window x:Class="WPF_Tutorial.Pannel.Canvas"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Tutorial.Pannel"
+        mc:Ignorable="d"
+        Title="Canvas" Height="450" Width="800">
+    <Canvas>
+        <Button Canvas.Left="10">Top Left</Button>
+        <Button Canvas.Right="10">Top Right</Button>
+        <Button Canvas.Left="10" Canvas.Bottom="10">Bottom Left</Button>
+        <Button Canvas.Right="10" Canvas.Bottom="10">Bottom Right</Button>
+    </Canvas>
+</Window>

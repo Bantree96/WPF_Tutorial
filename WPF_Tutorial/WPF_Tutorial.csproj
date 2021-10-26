@@ -75,6 +75,32 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Binding\RespondingData.xaml.cs">
+      <DependentUpon>RespondingData.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Binding\UpdateSourceTrigger.xaml.cs">
+      <DependentUpon>UpdateSourceTrigger.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Conversion\Conversion.xaml.cs">
+      <DependentUpon>Conversion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewWindow\MessageBoxView.xaml.cs">
+      <DependentUpon>MessageBoxView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrol\LimitText.xaml.cs">
+      <DependentUpon>LimitText.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Usercontrol\UseUsercontrol.xaml.cs">
+      <DependentUpon>UseUsercontrol.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Binding\RespondingData.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Binding\UpdateSourceTrigger.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ControlConcept\ToolTips.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -104,6 +130,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Control\TextBox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Conversion\Conversion.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -143,8 +173,55 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="NewWindow\MessageBoxView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Panel\Canvas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Panel\GridForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Panel\GridSplitter.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Panel\StackPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Panel\WrapPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Usercontrol\LimitText.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Usercontrol\UseUsercontrol.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Panel\Canvas.xaml.cs">
+      <DependentUpon>Canvas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Panel\GridForm.xaml.cs">
+      <DependentUpon>GridForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Panel\GridSplitter.xaml.cs">
+      <DependentUpon>GridSplitter.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Panel\StackPanel.xaml.cs">
+      <DependentUpon>StackPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Panel\WrapPanel.xaml.cs">
+      <DependentUpon>WrapPanel.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -173,5 +250,6 @@
   <ItemGroup>
     <Resource Include="Image\minimize.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
