@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Tutorial", "WPF_Tutoria
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioButton", "RadioButton\RadioButton.csproj", "{821004DC-755E-4D40-A384-3E981CFC91F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticBinding", "StaticBinding\StaticBinding.csproj", "{3C347BA4-CA72-4E87-94C3-2D646187CF9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,14 @@ Global
 		{821004DC-755E-4D40-A384-3E981CFC91F4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{821004DC-755E-4D40-A384-3E981CFC91F4}.Release|x64.ActiveCfg = Release|Any CPU
 		{821004DC-755E-4D40-A384-3E981CFC91F4}.Release|x64.Build.0 = Release|Any CPU
+		{3C347BA4-CA72-4E87-94C3-2D646187CF9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C347BA4-CA72-4E87-94C3-2D646187CF9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C347BA4-CA72-4E87-94C3-2D646187CF9A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3C347BA4-CA72-4E87-94C3-2D646187CF9A}.Debug|x64.Build.0 = Debug|Any CPU
+		{3C347BA4-CA72-4E87-94C3-2D646187CF9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C347BA4-CA72-4E87-94C3-2D646187CF9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C347BA4-CA72-4E87-94C3-2D646187CF9A}.Release|x64.ActiveCfg = Release|Any CPU
+		{3C347BA4-CA72-4E87-94C3-2D646187CF9A}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
