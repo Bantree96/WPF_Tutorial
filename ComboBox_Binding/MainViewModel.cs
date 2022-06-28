@@ -23,7 +23,6 @@ namespace ComboBox_Binding
 
         #region Field
         private string _txt;
-
         #endregion
 
         #region Property
@@ -42,7 +41,6 @@ namespace ComboBox_Binding
         #region Constructor
         public MainViewModel()
         {
-            Txt = "abc";
         }
         #endregion
     }

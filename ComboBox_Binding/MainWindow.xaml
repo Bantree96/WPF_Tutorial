@@ -9,7 +9,7 @@
     <Grid>
         <StackPanel>
             <Label Content="{Binding Txt}"></Label>
-            <ComboBox ItemsSource="{Binding MyEnumArray}"></ComboBox>
+            <ComboBox ItemsSource="{Binding MyEnumArray}" SelectedItem="{Binding Txt}"></ComboBox>
             
         </StackPanel>
     </Grid>
