@@ -1,4 +1,4 @@
-﻿namespace UserControll_study
+﻿namespace Page_study
 {
     /// <summary>
     /// SubPage.xaml에 대한 상호 작용 논리

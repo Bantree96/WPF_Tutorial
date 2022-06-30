@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 
-namespace UserControll_study
+namespace Page_study
 {
     public class Command : ICommand
     {

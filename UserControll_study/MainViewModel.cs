@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace UserControll_study
+namespace Page_study
 {
     public class MainViewModel : INotifyPropertyChanged
     {

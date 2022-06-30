@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioButton", "RadioButton\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticBinding", "StaticBinding\StaticBinding.csproj", "{3C347BA4-CA72-4E87-94C3-2D646187CF9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserControll_study", "UserControll_study\UserControll_study.csproj", "{2829A2E2-C4C4-4801-AE23-BEFD053323E0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Page_study", "UserControll_study\Page_study.csproj", "{2829A2E2-C4C4-4801-AE23-BEFD053323E0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComboBox_Binding", "ComboBox_Binding\ComboBox_Binding.csproj", "{1671710C-3D3D-45E6-A649-B41CB1BF3B51}"
 EndProject
