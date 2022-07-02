@@ -7,8 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <RadioButton>
-            <RadioButton.Content>라디오1</RadioButton.Content>
-        </RadioButton>
+        <StackPanel>
+            <!-- 완제품 검사 -->
+            <RadioButton IsChecked="{Binding Path=InspectionType, Converter={StaticResource RadioBoolToInspectionTypeConverter}, ConverterParameter={x:Static local:MainViewModel+INSPECTION_TYPE.Complete}}" Content="Complete"/>
+            <!-- 최종 검사 -->
+            <RadioButton IsChecked="{Binding Path=InspectionType, Converter={StaticResource RadioBoolToInspectionTypeConverter}, ConverterParameter={x:Static local:MainViewModel+INSPECTION_TYPE.Final}}">
+                <RadioButton.Content>
+                    <TextBlock Text="Final"/>
+                </RadioButton.Content>
+            </RadioButton>
+        </StackPanel>
     </Grid>
 </Window>

@@ -1,9 +1,9 @@
-﻿<Application x:Class="RadioButton.App"
+﻿<Application x:Class="StaticBinding.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:RadioButton"
+             xmlns:local="clr-namespace:StaticBinding"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <local:RadioBoolToInspectionTypeConverter x:Key="RadioBoolToInspectionTypeConverter"/>
+         
     </Application.Resources>
 </Application>
