@@ -26,7 +26,9 @@ namespace ThreadWindow
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            this.Hide();
+            MainWindowViewModel._isNewWindow = true;
+
+            this.Close();
         }
     }
 }

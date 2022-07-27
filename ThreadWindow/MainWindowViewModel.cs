@@ -24,6 +24,8 @@ namespace ThreadWindow
         private string _buttonText;
         private int _num;
         SubWindow subwindow;
+
+        public static bool _isNewWindow;
         #endregion
 
         #region Properties
@@ -36,6 +38,8 @@ namespace ThreadWindow
         {
             ButtonText = "새 창";
             Btn_Click = new Command(Execute_func1, CanExecute_func);
+
+            _isNewWindow = true;
         }
         #endregion
 
@@ -87,7 +91,9 @@ namespace ThreadWindow
                 {
                     Num = 0;
 
-                    
+                    if (_isNewWindow)
+                    {
+                        _isNewWindow = false;
                         App.Current.Dispatcher.Invoke(() =>
                         {
                             subwindow = new SubWindow();
@@ -98,6 +104,7 @@ namespace ThreadWindow
                             }
 
                         });
+                    }
                     // BeginInvoke
 
                 }
