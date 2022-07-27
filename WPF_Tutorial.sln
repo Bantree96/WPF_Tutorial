@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.2.32505.173
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32602.291
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_Tutorial", "WPF_Tutorial\WPF_Tutorial.csproj", "{1628A9B7-41BF-40A0-9EB4-8271445C7F17}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScrollViewer_study", "ScrollViewer_study\ScrollViewer_study.csproj", "{3932275C-B04C-4C7B-81B4-CB07811E6DB0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadWindow", "ThreadWindow\ThreadWindow.csproj", "{1004A9F8-6247-4A44-9974-1D9173BFE917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custom_ItemControl", "Custom_ItemControl\Custom_ItemControl.csproj", "{69ADF5FC-D6AA-40F6-A8FC-FDB5E0D3E984}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,14 @@ Global
 		{1004A9F8-6247-4A44-9974-1D9173BFE917}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1004A9F8-6247-4A44-9974-1D9173BFE917}.Release|x64.ActiveCfg = Release|Any CPU
 		{1004A9F8-6247-4A44-9974-1D9173BFE917}.Release|x64.Build.0 = Release|Any CPU
+		{69ADF5FC-D6AA-40F6-A8FC-FDB5E0D3E984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69ADF5FC-D6AA-40F6-A8FC-FDB5E0D3E984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69ADF5FC-D6AA-40F6-A8FC-FDB5E0D3E984}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{69ADF5FC-D6AA-40F6-A8FC-FDB5E0D3E984}.Debug|x64.Build.0 = Debug|Any CPU
+		{69ADF5FC-D6AA-40F6-A8FC-FDB5E0D3E984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69ADF5FC-D6AA-40F6-A8FC-FDB5E0D3E984}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69ADF5FC-D6AA-40F6-A8FC-FDB5E0D3E984}.Release|x64.ActiveCfg = Release|Any CPU
+		{69ADF5FC-D6AA-40F6-A8FC-FDB5E0D3E984}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
