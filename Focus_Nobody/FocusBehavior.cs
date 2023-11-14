@@ -20,8 +20,8 @@ namespace Focus_Nobody
 
         public bool IsControlFocus
         {
-            get;
-            set;
+            get { return (bool)GetValue(IsControlFocusProperty); }
+            set { SetValue(IsControlFocusProperty, value); }
         }
 
         private static void IsControlFocusPropertyChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
