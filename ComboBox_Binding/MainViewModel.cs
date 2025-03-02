@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel;
+using ComboBox_Binding.Types;
 
 namespace ComboBox_Binding
 {
@@ -27,15 +28,7 @@ namespace ComboBox_Binding
 
         #region Property
         public string Txt { get { return _txt; } set { _txt = value; OnPropertyChanged(nameof(Txt)); } }
-        public Array MyEnumArray
-        {
-            get { return Enum.GetValues(typeof(MyEnum)); }
-        }
-
-        public enum MyEnum
-        {
-            a,b,c,
-        } 
+        public Array MyEnumArray {  get => Enum.GetValues(typeof(MyEnum)); }
         #endregion
 
         #region Constructor
