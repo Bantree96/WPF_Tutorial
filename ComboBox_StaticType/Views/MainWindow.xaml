@@ -4,9 +4,22 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ComboBox_StaticType"
+		xmlns:types="clr-namespace:ComboBox_StaticType.Types"
+		xmlns:converter="clr-namespace:ComboBox_StaticType.Converter"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+
+	<Window.Resources>
+		<ResourceDictionary>
+			<converter:EnumToItemSource_Converter x:Key="EnumToItemSource_Converter"/>
+		</ResourceDictionary>
+	</Window.Resources>
     <Grid>
-        
-    </Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition/>
+			<RowDefinition/>
+		</Grid.RowDefinitions>
+		<TextBlock Grid.Row="0" Text="{Binding User}"/>
+		<ComboBox Grid.Row="1" ItemsSource="{Binding Source={x:Type types:MyEnum}, Converter={StaticResource EnumToItemSource_Converter}}" SelectedItem="{Binding User}"/>
+	</Grid>
 </Window>

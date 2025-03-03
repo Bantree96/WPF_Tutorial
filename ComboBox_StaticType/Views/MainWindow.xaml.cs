@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ComboBox_StaticType.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,11 @@ namespace ComboBox_StaticType
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        public MainWindow(MainWindowViewModel viewModel)
         {
             InitializeComponent();
+
+            this.DataContext = viewModel;
         }
     }
 }
